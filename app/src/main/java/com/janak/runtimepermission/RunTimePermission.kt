@@ -27,6 +27,8 @@ open class RunTimePermission : AppCompatActivity() {
                     break
                 }
             }
+
+
             if (granted) {
                 callback(true)
             } else {
